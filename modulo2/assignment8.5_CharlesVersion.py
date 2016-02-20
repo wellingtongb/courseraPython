@@ -10,4 +10,4 @@ for line in fhand:
 	#if words == [] :continue	#this is first version of a guardioan to prevent crash
 	if len(words) < 1:continue 	#this another version
 	if words[0] != "From":continue
-	print words[2]	
+	print words[1]	
